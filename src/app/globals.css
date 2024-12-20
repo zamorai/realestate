@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --background-page: #08090a;
+  --background-container: #111111;
+  --background-element: #1A1A1A;
+  --border-color: rgba(255, 255, 255, 0.1);
+  
+  /* Text colors */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A1A1AA;
+  --text-tertiary: #71717A;
+}
+
+/* Force dark mode for the entire site */
+html {
+  background-color: var(--background-page);
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--background-page);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
